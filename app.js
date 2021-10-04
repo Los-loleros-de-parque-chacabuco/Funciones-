@@ -43,22 +43,25 @@
 // 50 → 100
 // 11 → 22
 
-function cuenta (numero) {
-    if (numero >=5 && numero <=10){
-        numero+=1
-        var multiplicacion=1;
-        for(n=1;n<numero;n++){
-        multiplicacion*=n;
-         }
-         alert(multiplicacion)
+function cuenta(numero) {
+    if (numero >= 5 && numero <= 10) {
+        numero += 1
+        var multiplicacion = 1;
+        for (n = 1; n < numero; n++) {
+            multiplicacion *= n;
+        }
+        alert(multiplicacion)
     }
-    else{
+    else if (4 >= numero) {
+        if (numero>0) {
+            alert(numero)
+        }else(alert(numero*-1))
+        
+    }
+    else if (numero >= 11) {
+        alert(numero * 2)
 
     }
-    
 }
-do{
-
 cuenta(parseInt(prompt("Ingrese un numero")));
 
-}while(numero >=5 && numero <=10)
