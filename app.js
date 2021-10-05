@@ -84,7 +84,7 @@
 //         function compra(x, y) {
 //             if (x < 18 && y == "cerveza") {
 //                 alert("disculpa sos menor de edad no podes consumir alcohol")
-            
+
 
 //             } else {
 //                 alert("vale $100")
@@ -107,11 +107,26 @@
 // cobrar(pagar, precio)
 
 // 7) Crear una función que reciba tres parámetros: Horas, minutos y segundos, y devolver todo pasado a segundos.
-do{
-var horas= parseInt(prompt("¿Cuantas horas quieres ingresar?"))
-var minutos= parseInt(prompt("¿Cuantas minutos quieres ingresar?"))
-var segundos= parseInt(prompt("¿Cuantas segundo quieres ingresar?"))
-}while(horas<0 && segundos<0 && minutos<0)
+// alert("tene en cuenta que no existe el tiempo negativo")
+// do {
+//     var horas = Math.floor(prompt("¿Cuantas horas quieres ingresar?"))
+//     var minutos = Math.floor(prompt("¿Cuantas minutos quieres ingresar?"))
+//     var segundos = Math.round(prompt("¿Cuantas segundo quieres ingresar?"))
+// } while (horas < 0 || segundos < 0 || minutos < 0)
 
+// function convertidor(h,m,s) {
+//     let hora = h
+//     let minuto = m 
+//     let segundo = s 
+//     segundo=segundo
+//     minuto+=segundo/60
+//     hora+= minuto/60
+//     s=hora*3600
+//     alert("tu tiempo convertido a segundos es: "+ s)
+// }
 
+// convertidor(horas,minutos,segundos)
 
+// 8) Realizar una función de carga de notas en un array. Luego realizar otra función que calcule el promedio de todas y lo devuelva. 
+
+Array
